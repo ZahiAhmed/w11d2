@@ -33,7 +33,6 @@ const Folder = props => {
   const [currentTab, setCurrentTab] = useState(0)
 
   const selectTab = (num) => {
-    debugger
     setCurrentTab(num);
   }
 
