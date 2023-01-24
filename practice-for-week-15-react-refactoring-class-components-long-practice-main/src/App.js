@@ -55,7 +55,7 @@ const toggleClock = () => setShowClock ({
     <div className="widgets">
       <Folder folders={folders} />
       <Weather />
-      <ClockToggle toggleClock />
+      <ClockToggle toggleClock={toggleClock} />
       {showClock && <Clock />}
       <AutoComplete names={names} />
     </div>
