@@ -34,9 +34,9 @@ const App = function(props) {
  const [showClock, setShowClock] = useState(true) 
 //   toggleClock = () => this.setState({ showClock: !this.state.showClock });
 
-const toggleClock = () => setShowClock ({
-  showClock: !showClock
-})
+const toggleClock = () => setShowClock (
+  !showClock
+)
 
 //   render () {
 //     return (
@@ -61,9 +61,5 @@ const toggleClock = () => setShowClock ({
     </div>
   );
 }
-
-
-  
-
 
 export default App;
